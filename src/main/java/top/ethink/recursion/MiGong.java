@@ -51,7 +51,8 @@ public class MiGong {
      */
     public static boolean setWay(int[][] map, int i, int j) {
         if (map[6][5] == 2) {
-            return true;1
+            return true;
+
         } else {
             if (map[i][j] == 0) {
                 // 当前点没有走过 , 按照策略尝试
