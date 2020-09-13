@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class RadixSort {
     public static void main(String[] args) {
-        int[] arr = {18, 239, 21, 7, 27, 31, 35, 24, 61, 20};
+        int[] arr = {18, 239, 21, 7, 27, 31, 35, 24, 61, 20, 11};
         radixSort(arr);
         // print(arr);
     }
