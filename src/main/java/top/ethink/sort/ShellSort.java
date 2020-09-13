@@ -11,14 +11,14 @@ import java.util.Arrays;
  */
 public class ShellSort {
     public static void main(String[] args) {
-//        int[] arr = {8, 9, 1, 7, 2, 3, 5, 4, 6, 0};
-//        sort(arr);
+        int[] arr = {8, 9, 1, 7, 2, 3, 5, 4, 6, 0};
+        sort(arr);
         // print(arr);
 //        sort2(arr);
-        int[] arr = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            arr[i] = (int)(Math.random()*8000000);
-        }
+//        int[] arr = new int[80000];
+//        for (int i = 0; i < 80000; i++) {
+//            arr[i] = (int)(Math.random()*8000000);
+//        }
         LocalDateTime now1 = LocalDateTime.now(ZoneId.of("Asia/Shanghai"));
         System.out.println(now1);
         sort2(arr);
