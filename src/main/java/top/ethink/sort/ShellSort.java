@@ -1,6 +1,7 @@
 package top.ethink.sort;
 
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.Arrays;
 
 /**
@@ -10,7 +11,7 @@ import java.util.Arrays;
  */
 public class ShellSort {
     public static void main(String[] args) {
-//        int arr[] = {8, 9, 1, 7, 2, 3, 5, 4, 6, 0};
+//        int[] arr = {8, 9, 1, 7, 2, 3, 5, 4, 6, 0};
 //        sort(arr);
         // print(arr);
 //        sort2(arr);
@@ -18,12 +19,11 @@ public class ShellSort {
         for (int i = 0; i < 80000; i++) {
             arr[i] = (int)(Math.random()*8000000);
         }
-        LocalDateTime now1 = LocalDateTime.now();
+        LocalDateTime now1 = LocalDateTime.now(ZoneId.of("Asia/Shanghai"));
         System.out.println(now1);
-        sort(arr);
-        LocalDateTime now2 = LocalDateTime.now();
+        sort2(arr);
+        LocalDateTime now2 = LocalDateTime.now(ZoneId.of("Asia/Shanghai"));
         System.out.println(now2);
-
     }
 
 
@@ -49,7 +49,6 @@ public class ShellSort {
 //            print(arr);
             len = len / 2;
         }
-
     }
 
 

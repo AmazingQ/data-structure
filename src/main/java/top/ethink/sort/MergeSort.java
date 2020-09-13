@@ -11,10 +11,10 @@ import java.util.Arrays;
  */
 public class MergeSort {
     public static void main(String[] args) {
-        int arr[] = {8, 9, 1, 7, 22, 3, 5, 4, 6, 0};
-//        int arr[] = {8, 4, 5, 7, 1, 3, 6, 2};
+        int[] arr = {8, 9, 1, 7, 22, 3, 5, 4, 6, 0};
+//        int[] arr[] = {8, 4, 5, 7, 1, 3, 6, 2};
         // 归并排序额外占用空间
-        int temp[] = new int[arr.length];
+        int[] temp = new int[arr.length];
         sort(arr,0,arr.length-1,temp);
         print(arr);
     }

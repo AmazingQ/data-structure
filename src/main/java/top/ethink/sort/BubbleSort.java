@@ -4,13 +4,12 @@ import java.util.Arrays;
 
 /**
  * 冒泡排序
- *
  * @author AmazingQ
  * @date 2020-09-01 6:46
  */
 public class BubbleSort {
     public static void main(String[] args) {
-        int arr[] = {3, 1, 21, 4, 66, -2};
+        int[] arr = {3, 1, 21, 4, 66, -2};
         sort(arr);
         // print(arr);
     }
