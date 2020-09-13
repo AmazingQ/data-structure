@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {3, 1, 21, 4, 66, -2};
+        int[] arr = {3, 1, 21, 4, 66, -2, 15};
         sort(arr);
         // print(arr);
     }
